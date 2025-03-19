@@ -24,4 +24,38 @@ public class Room {
     private String roomtype;
     @Column(nullable = false)
     private int price;
+    
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public String getImg() {
+		return img;
+	}
+	public void setImg(String img) {
+		this.img = img;
+	}
+	public String getRoomname() {
+		return roomname;
+	}
+	public void setRoomname(String roomname) {
+		this.roomname = roomname;
+	}
+	public String getRoomtype() {
+		return roomtype;
+	}
+	public void setRoomtype(String roomtype) {
+		this.roomtype = roomtype;
+	}
+	public int getPrice() {
+		return price;
+	}
+	public void setPrice(int price) {
+		this.price = price;
+	}
+	
+    
+    
 }
